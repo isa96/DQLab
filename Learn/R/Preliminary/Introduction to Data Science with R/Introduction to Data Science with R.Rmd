@@ -1,0 +1,51 @@
+---
+title: "Introduction to Data Science with R"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE, comment = "", message = F, warning = F)
+```
+
+# ["Hello World"](https://academy.dqlab.id/main/livecode/111/211/1059)
+
+```{r}
+"Hello World"
+```
+
+# [Praktek Angka dan Perhitungan](https://academy.dqlab.id/main/livecode/111/211/1062)
+
+```{r}
+10 + 7
+```
+
+# [Variable dalam R](https://academy.dqlab.id/main/livecode/111/211/1060)
+
+```{r}
+a = 5
+print(a)
+```
+
+# [Praktik Penggunaan Comment](https://academy.dqlab.id/main/livecode/111/212/1064)
+
+```{r}
+10 + 7 # Ini adalah baris komentar
+```
+
+# [Praktek Penggunaan Vector - Bagian Satu](https://academy.dqlab.id/main/livecode/111/212/1066)
+
+```{r}
+c(3, 10, 15)
+```
+
+# [Praktek Penggunaan Vector - Bagian Dua](https://academy.dqlab.id/main/livecode/111/212/1067)
+
+```{r}
+c(1:5)
+```
+
+# [Menggunakan Fungsi Summary](https://academy.dqlab.id/main/livecode/111/212/1070)
+
+```{r}
+summary(c(1:5))
+```
